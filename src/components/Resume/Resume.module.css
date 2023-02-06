@@ -1,0 +1,51 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.grid img {
+  width: 45px;
+}
+.grid div {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  display: flex;
+}
+
+header img {
+  padding: 5px 5px;
+  width: 34px;
+  height: 34px;
+}
+header a:hover {
+  transform: scale(1.02);
+}
+
+.imageClass {
+  width: 23px;
+  height: 23px;
+}
+
+.grid img {
+  width: 20%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.imgcolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skilltxt {
+  color: hsl(45, 54%, 58%);
+}
+
+.imgcolumn:hover {
+  transform: scale(1.02);
+}

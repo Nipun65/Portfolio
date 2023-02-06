@@ -1,0 +1,121 @@
+.icon-box {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  width: 342px;
+  height: 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: var(--orange-yellow-crayola);
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+}
+.inline {
+  display: flex;
+  top: 50%;
+  left: 50%;
+}
+.contact {
+  padding-top: 5px;
+}
+
+.connect {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: hsl(45, 50%, 62%);
+}
+.getintouch {
+  color: hsl(45, 100%, 72%);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 100px);
+  align-items: center;
+  grid-gap: 60px;
+  padding-left: 200px;
+}
+
+.alignimage {
+  display: 'flex';
+  align-items: 'center';
+  cursor: pointer;
+}
+
+.alignimage > img {
+  width: 60px;
+  height: 50px;
+  padding-right: 10px;
+}
+
+.alignimage > * {
+  display: inline-block;
+}
+
+.connect-text {
+  color: hsl(45, 54%, 58%);
+  font: sans-serif;
+  font-size: large;
+  font-weight: 300;
+}
+
+@media (min-width: 220px) {
+  .grid-container {
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 100px); */
+    align-items: center;
+    grid-gap: 16px;
+    padding-left: 10px;
+  }
+  .alignimage > img {
+    width: 25px;
+    height: 20px;
+    padding-right: 5px;
+  }
+}
+
+@media (min-width: 450px) {
+  .alignimage > img {
+    width: 25px;
+    height: 20px;
+    padding-right: 6px;
+  }
+
+  .grid-container {
+    grid-gap: 60px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 580px) {
+  .alignimage > img {
+    width: 45px;
+    height: 35px;
+    padding-right: 5px;
+  }
+  .grid-container {
+    grid-gap: 60px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-gap: 60px;
+    padding-left: 200px;
+  }
+  .alignimage > img {
+    width: 55px;
+    height: 45px;
+    padding-right: 5px;
+  }
+}

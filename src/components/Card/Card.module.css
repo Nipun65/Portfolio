@@ -1,0 +1,82 @@
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainTag {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.2s ease-in-out;
+  padding: 15px;
+}
+
+.mainTag:hover {
+  transform: scale(1.02);
+}
+
+.aTag {
+  padding: 15px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.emoji {
+  width: 18px;
+  height: 18px;
+}
+
+.link {
+  display: block;
+  color: var(--vegas-gold);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lang {
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  color: var(--vegas-gold);
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.section_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1vh 0;
+  padding: 0 1px;
+  word-wrap: break-word;
+  color: hsl(45, 54%, 58%);
+  font-weight: var(--fw-300);
+  font-family: sans-serif;
+}
+
+.about_section {
+  font-size: 16px;
+  font-family: 'Questrial', sans-serif;
+  margin: 2vh 0;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  font-family: sans-serif;
+}
+
+.bottom_section {
+  margin: 1vh 0;
+  font-size: 13px;
+  word-wrap: break-word;
+  color: var(--vegas-gold);
+  font-weight: var(--fw-300);
+  font-family: sans-serif;
+}
