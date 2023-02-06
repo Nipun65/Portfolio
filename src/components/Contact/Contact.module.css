@@ -69,9 +69,6 @@
 
 @media (min-width: 220px) {
   .grid-container {
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 100px); */
     align-items: center;
     grid-gap: 16px;
     padding-left: 10px;
