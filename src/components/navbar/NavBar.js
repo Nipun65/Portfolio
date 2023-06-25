@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const NavBar = (props) => {
+const NavBar = props => {
   console.log(props);
 
   const about = useRef();
@@ -9,12 +9,12 @@ const NavBar = (props) => {
 
   const contact = useRef();
 
-  const handleClick = (view) => {
+  const handleClick = view => {
     setCssNav(view);
     props.viewContent(view);
   };
 
-  const setCssNav = (view) => {
+  const setCssNav = view => {
     console.log(view);
     removeClass();
     if (view === 'about') {
@@ -37,8 +37,8 @@ const NavBar = (props) => {
 
   const checkVisibleElements = (targetElement, setTo) => {
     if (targetElement) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
           if (entry.intersectionRatio > 0) {
             setCssNav(setTo);
           }
@@ -56,11 +56,11 @@ const NavBar = (props) => {
     const targetContact = document.getElementById('contact');
     const targetLastResume = document.getElementById('experience');
 
-    checkVisibleElements(targetAbout, 'about');
-    checkVisibleElements(targetResume, 'resume');
-    checkVisibleElements(targetPortfolio, 'portfolio');
     checkVisibleElements(targetContact, 'contact');
+    checkVisibleElements(targetPortfolio, 'portfolio');
     checkVisibleElements(targetLastResume, 'resume');
+    checkVisibleElements(targetResume, 'resume');
+    checkVisibleElements(targetAbout, 'about');
   }, []);
 
   return (

@@ -2,13 +2,13 @@ import './App.css';
 import './styles.css';
 import LeftPart from './components/leftParts/leftPart';
 import RightPart from './components/rightPart/rightPart';
-import NavBar from './components/navbar/NavBar';
+import NavBar from './components/Navbar/NavBar';
 import { useState } from 'react';
 
 function App() {
   const [view, setView] = useState('about');
 
-  const showView = (view) => {
+  const showView = view => {
     setView(view);
   };
 

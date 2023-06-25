@@ -17,6 +17,8 @@ import education from '../../assets/imgData/education.png';
 import react from '../../assets/imgData/react.png';
 import github from '../../assets/imgData/github.png';
 import gitlab from '../../assets/imgData/gitlab.png';
+import nextjs from '../../assets/imgData/nextjs.png';
+import nodejs from '../../assets/imgData/nodejs.png';
 
 const Resume = () => {
   return (
@@ -24,7 +26,7 @@ const Resume = () => {
       <header>
         <h2 className='h2 article-title'>Resume</h2>
         <a
-          href='https://drive.google.com/file/d/1MpgdJK2voA3KJBMVdw-meB--9qAZ0d06/view?usp=sharing'
+          href='https://drive.google.com/file/d/1Lh-KKiJ5NOpCVsZRGoaB6fqNrX29ykjs/view?usp=drive_link'
           target='__blank'
         >
           <img src={newTab} />
@@ -47,29 +49,44 @@ const Resume = () => {
             <span>Jul 2022 - Present</span>
 
             <p className='timeline-text'>
-              I'm working on Agile-driven environment to maintain project
-              timelines. My primary responsibilities have been centered around
-              the design, development and deployment of various features that
-              have improved the overall user experience, scalability, and
-              performance of the application. My key contributions include:
-              Building onboarding settings, which sends notifications to users
-              via email. Developing a profile data history feature, enabling
-              users to view their history data. Enhancing the application's
-              usability by updating table dimensions based on column selection.
-              Created a common directive for developers to display dynamic
-              information. Developing a feature that identifies and highlights
-              any missing mandatory fields within the people profile feature, to
-              improve the application's functionality and user experience. This
-              feature ensures that users are able to complete their profiles
-              accurately and efficiently. Implementing a chat feature between
-              users and admin. Developing the feature to show Email using
-              userId. Adding functionality for downloading attached files and
-              handling blob object. I have also created multiple reusable
-              components, I have also made significant efforts to optimize and
-              improve the existing components of the application, by identifying
-              and resolving bugs, and implementing best practices to improve
-              functionality and performance. This resulted in a more robust,
-              scalable and efficient application.
+              <ul>
+                <li>
+                  As a highly valued member of an Agile team. Leveraging my
+                  extensive software development expertise, I have made
+                  significant con- tributions in driving improvements, playing a
+                  pivotal role in enhancing performance and achieving success.
+                  My key responsibilities have involved designing, developing,
+                  and deploying a range of features that have greatly enhanced
+                  the application’s user experience, scalability, and
+                  performance.
+                </li>
+                <li>
+                  As an individual contributor, I have successfully worked on
+                  multiple client projects, engaging in detailed discussions
+                  with clients to understand their requirements and developing
+                  features accordingly. Additionally, I have designed and built
+                  SEO-optimized websites using Next.js, ensuring they are
+                  responsive and user-friendly, delivering exceptional
+                  experiences to users.
+                </li>
+                <li>
+                  As a team member, Developed an onboarding settings feature
+                  that sends email notifications to users, a profile data
+                  history function- ality for users to view their data history,
+                  and enhanced the application’s usability by updating table
+                  dimensions based on column selection. Created a common
+                  directive for the team members to display dynamic information.
+                  Implemented a chat feature for users and administrators,
+                  developed the functionality to display email using user ID,
+                  and added the capability to download attached files and handle
+                  blob objects, significantly enriching the application’s
+                  functionality and user experience. Created reusable
+                  components, optimized existing components, resolved bugs, and
+                  implemented best practices to enhance functionality and
+                  performance, resulting in a more robust, scalable, and
+                  efficient application.
+                </li>
+              </ul>
             </p>
           </li>
 
@@ -79,10 +96,14 @@ const Resume = () => {
             <span>Jan 2022 - Jul 2022</span>
 
             <p className='timeline-text'>
-              I handled onboarding and offboarding process on HR software. I've
-              also worked on multiple browser support extensions created
-              linkedin extension which scrapes user profile make json of that
-              data, and stored in firebase database.
+              I used to manage the onboarding and offboarding process using HR
+              software. Additionally, I demonstrated my expertise by developing
+              multiple browser support extensions, including a LinkedIn
+              extension that scrapes user profiles, converts the data into JSON
+              format, and stores it in a Firebase database. Furthermore, I
+              expanded the application’s reach and capabilities by working on
+              Google Cloud Platform (GCP) and developing LinkedIn browser
+              extensions.
             </p>
           </li>
 
@@ -93,8 +114,10 @@ const Resume = () => {
             <span>5th December 2019 - 31st December 2019</span>
 
             <p className='timeline-text'>
-              I made a website for Educare India that connects volunteers with
-              NGO.
+              I had the privilege of designing and developing a website for
+              Educare India, an impactful platform that effectively connects
+              passionate volunteers with NGOs, fostering meaningful
+              collaborations and making a positive difference in the community.
             </p>
           </li>
         </ol>
@@ -150,6 +173,22 @@ const Resume = () => {
         <div className={styles.grid}>
           <a
             className={styles.imgcolumn}
+            href='https://reactjs.org/'
+            target='__blank'
+          >
+            <img src={react} alt='react-img-tag' />
+            <p className={styles.skilltxt}>React</p>
+          </a>
+          <a
+            className={styles.imgcolumn}
+            href='https://nextjs.org/'
+            target='__blank'
+          >
+            <img src={nextjs} alt='next-img-tag' />
+            <p className={styles.skilltxt}>Next.js</p>
+          </a>
+          <a
+            className={styles.imgcolumn}
             href='https://angular.io/'
             target='__blank'
           >
@@ -172,14 +211,7 @@ const Resume = () => {
             <img src={typescriptImg} alt='typescript-img-tag' />
             <p className={styles.skilltxt}>Typescript</p>
           </a>
-          <a
-            className={styles.imgcolumn}
-            href='https://reactjs.org/'
-            target='__blank'
-          >
-            <img src={react} alt='react-img-tag' />
-            <p className={styles.skilltxt}>React</p>
-          </a>
+
           <a
             className={styles.imgcolumn}
             href='https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
@@ -187,6 +219,14 @@ const Resume = () => {
           >
             <img src={htmlImg} alt='html-img-tag' />
             <p className={styles.skilltxt}>HTML</p>
+          </a>
+          <a
+            className={styles.imgcolumn}
+            href='https://www.w3schools.com/css/'
+            target='__blank'
+          >
+            <img src={cssImg} alt='css-img-tag' />
+            <p className={styles.skilltxt}>CSS</p>
           </a>
           <a
             className={styles.imgcolumn}
@@ -198,11 +238,11 @@ const Resume = () => {
           </a>
           <a
             className={styles.imgcolumn}
-            href='https://www.w3schools.com/css/'
+            href='https://nodejs.org/en/docs'
             target='__blank'
           >
-            <img src={cssImg} alt='css-img-tag' />
-            <p className={styles.skilltxt}>CSS</p>
+            <img src={nodejs} alt='nodejs-img-tag' />
+            <p className={styles.skilltxt}>Node.js</p>
           </a>
           <a
             className={styles.imgcolumn}
