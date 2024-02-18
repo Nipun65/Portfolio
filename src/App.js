@@ -2,7 +2,7 @@ import './App.css';
 import './styles.css';
 import LeftPart from './components/leftParts/leftPart';
 import RightPart from './components/rightPart/rightPart';
-import NavBar from './components/Navbar/NavBar';
+import NavBar from './components/navbar/NavBar';
 import { useState } from 'react';
 
 function App() {

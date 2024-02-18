@@ -4,7 +4,6 @@ import Contact from '../Contact/Contact';
 import Portfolio from '../PortFolio/Portfolio';
 function RightPart(props) {
   useEffect(() => {
-    console.log(props.userView);
     document.getElementById(props.userView).scrollIntoView();
   }, [props]);
 

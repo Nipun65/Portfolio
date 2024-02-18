@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 
 const NavBar = props => {
-  console.log(props);
 
   const about = useRef();
   const resume = useRef();
@@ -15,7 +14,6 @@ const NavBar = props => {
   };
 
   const setCssNav = view => {
-    console.log(view);
     removeClass();
     if (view === 'about') {
       about.current.classList.add('active');

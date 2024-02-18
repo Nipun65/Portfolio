@@ -47,7 +47,7 @@ const Resume = () => {
             <span>Searce Inc</span>
             <span>Jul 2022 - Present</span>
 
-            <p className="timeline-text">
+            <div className="timeline-text">
               <ul>
                 <li>
                   As a highly valued member of an Agile team. Leveraging my
@@ -86,7 +86,7 @@ const Resume = () => {
                   efficient application.
                 </li>
               </ul>
-            </p>
+            </div>
           </li>
 
           <li className="timeline-item" id="experience">
