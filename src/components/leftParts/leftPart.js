@@ -22,7 +22,7 @@ function LeftPart() {
         </header>
         <section className='about-text'>
           <p>
-            Hi, my name is Nipun. I'm Software Engineer at Searce Inc. My
+            Hi, my name is Nipun. I'm Software Engineer. My
             passion is to solve real-world problems and provide optimal
             solutions. I have a BTech degree in ICT from Dhirubhai Ambani
             Institute of Information and Technology. My job entails building

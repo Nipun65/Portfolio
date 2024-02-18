@@ -12,13 +12,13 @@ const Portfolio = () => {
       projectName: "RandomMeme",
       link: "https://github.com/Nipun65/RandomMeme",
       language: "JavaScript",
-      description: "Created browser extension which generate random meme",
+      description: "Browser extension for generating memes",
     },
     {
       projectName: "Video GamesDB",
       link: "https://github.com/Nipun65/VideogameDB",
       language: "ReactJS",
-      description: "Shows the information about the games",
+      description: "Information about the games",
     },
     {
       projectName: "Online Car Parking Reservation",
@@ -49,10 +49,10 @@ const Portfolio = () => {
       link: "https://github.com/Nipun65/nextjs-seo",
       language: "NextJS",
       description:
-        "Character Details of 'The Office': Identifying the Beloved Characters of the Show(SEO, Static HTML rendering using nextjs)",
+        "Character Details of 'The Office': SEO - Static HTML rendering",
     },
     {
-      projectName: "Todo App(Vuejs)",
+      projectName: "Todo App",
       link: "https://github.com/Nipun65/Todo-VueJS",
       language: "VueJS",
       description: "Todo app using vuejs",

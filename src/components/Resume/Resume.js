@@ -26,7 +26,7 @@ const Resume = () => {
       <header>
         <h2 className="h2 article-title">Resume</h2>
         <a
-          href="https://drive.google.com/file/d/1Lh-KKiJ5NOpCVsZRGoaB6fqNrX29ykjs/view?usp=drive_link"
+          href="https://drive.google.com/file/d/13jKDAB_h1er5Vo-awbnYByPApuoiY3Zb/view"
           target="__blank">
           <img src={newTab} />
         </a>
@@ -153,7 +153,7 @@ const Resume = () => {
             <span>2016 — 2018</span>
 
             <p className="timeline-text">
-              Higher Secondary | Class XII Science
+              Higher Secondary
             </p>
           </li>
 
@@ -162,7 +162,7 @@ const Resume = () => {
 
             <span>2015 — 2016</span>
 
-            <p className="timeline-text">Secondary | Class X</p>
+            <p className="timeline-text">Secondary</p>
           </li>
         </ol>
       </section>
