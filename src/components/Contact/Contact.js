@@ -21,7 +21,7 @@ const Contact = () => {
       <div className={styles['connect']}>Connect</div>
       <div className={styles['getintouch']}>GET IN TOUCH</div>
       <div className={styles['grid-container']}>
-        <a href='mailto:nipunpatel7@gmail.com'>
+        <a href='mailto:nipunpatel7@gmail.com' style={{width:'fit-content'}}>
           <div
             className={`${styles.alignimage} ${styles['connect-text']}`}
             style={{ display: 'flex', alignItems: 'center' }}
@@ -33,6 +33,7 @@ const Contact = () => {
         <a
           href='https://www.linkedin.com/in/nipun-patel-328886207/'
           target='__blank'
+          style={{width:'fit-content'}}
         >
           <div
             className={styles.alignimage}
