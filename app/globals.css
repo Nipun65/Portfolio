@@ -24,6 +24,9 @@ body {
   fill: white;
   transition: fill cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
 }
+.header-div {
+  position: sticky !important;
+}
 
 @keyframes fontChange {
   0% {

@@ -6,7 +6,7 @@ const Footer = () =>{
         <div className="bg-[#15151e] h-40 w-full relative overflow-hidden">
   <div className="absolute inset-0">
   <div className="xs:px-4 md:px-6 lg:px-12 py-6 flex flex-col xs:items-start">
-            <p className="xs:text-2xl lg:text-4xl text-white">Connect</p>
+            <p className="xs:text-xl md:text-3xl lg:text-4xl text-white">Connect</p>
                         <p className="text-white mt-3 xs:text-xs lg:text-base">Designed & Developed by Nipun. Built with Next.js, React.js, Typescript, and Tailwind CSS.</p>
             <ul className="flex items-center gap-3 mt-3">
                 <Link href={"mailto:nipunpatel7@gmail.com"} className="lg:h-6 lg:w-6 xs:h-5 xs:w-5" target="__blank">
