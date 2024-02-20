@@ -2,32 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+
+.change-font {
+  color: #eb3486;
+  animation-name: fontChange;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+
+.svg-color {
+  fill: #b3afaf;
+}
+
+.svg-color:hover{
+  fill: white;
+  transition: fill cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+}
+
+@keyframes fontChange {
+  0% {
+    font-family: 'Major Mono Display', monospace;
+  }
+  20% {
+    font-family: 'Kaushan Script', cursive;
+  }
+  40% {
+    font-family: 'Lobster', cursive;
+  }
+  60% {
+    font-family: 'Ranchers', cursive;
+  }
+  80% {
+    font-family: 'Bitter', serif;
+  }
+  100% {
+    font-family: 'Major Mono Display', monospace;
   }
 }
