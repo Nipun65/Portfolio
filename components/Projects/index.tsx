@@ -19,7 +19,7 @@ const Projects = () =>{
         }
         
         const tween = gsap.to(projects, {
-            x: getScrollAmount,
+            x: (getScrollAmount as any),
             duration: 3,
             ease: "none",
         });
@@ -28,7 +28,7 @@ const Projects = () =>{
         ScrollTrigger.create({
             trigger:".projects-wrapper",
             start:"top 20%",
-            end: () => `+=${getScrollAmount?.() * -1}`,
+            end: () => `+=${(getScrollAmount?.() as any) * -1}`,
             pin:true,
             animation:tween,
             scrub:1,
@@ -38,11 +38,10 @@ const Projects = () =>{
     })
    
     return(
-        <section className="bg-[#f7df1e4D] relative h-fit p-12"> <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold mb-2 text-[#333333]">Projects</h3><div className="p-12 projects-wrapper overflow-y-hidden overflow-x-hidden">
+        <section className="bg-[#f7df1e4D] relative h-fit xs:p-4 md:p-6 lg:p-12"> <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold mb-2 text-[#333333]">Projects</h3><div className="p-12 projects-wrapper overflow-y-hidden overflow-x-hidden">
        
     <div className="flex gap-3 w-full flex-nowrap my-6 scroll-tag">
-        {constants.PORTFOLIO.map((project:any)=><Card data
-        ={project}/>)}
+        {constants.PORTFOLIO.map((project:any)=><Card data={project} key={project.name}/>)}
     </div> </div></section>
 )
 }

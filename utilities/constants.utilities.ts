@@ -121,7 +121,7 @@ const PORTFOLIO = [
     { skill: "Angular", link: "https://angular.io", logo: angularImg },
     { skill: "Vue.js", link: "https://vuejs.org", logo: vuejs },
     { skill: "Redux", link: "https://redux.js.org", logo: redux },
-    { skill: "TailwindCSS", link: "https://tailwindcss.com", logo: tailwindcss },
+    { skill: "Tailwind", link: "https://tailwindcss.com", logo: tailwindcss },
     { skill: "Material UI", link: "https://mui.com", logo: materialui },
     { skill: "Javascript", link: "https://javascript.info/", logo: javascriptImg },
     { skill: "Typescript", link: "https://www.typescriptlang.org/", logo: typescriptImg },

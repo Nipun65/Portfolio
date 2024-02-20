@@ -1,14 +1,11 @@
 import Image from "next/image";
-import bg from '@/public/footerbg.avif'
 import Link from "next/link";
-import linkedin from '@/public/skills/linkedin.png'
-import gmail from '@/public/skills/gmail.png'
 
 const Footer = () =>{
-    return(<div className=" h-fit">
+    return(<div className="h-fit">
         <div className="bg-[#15151e] h-40 w-full relative overflow-hidden">
   <div className="absolute inset-0">
-  <div className="px-12 py-6 flex flex-col xs:items-start">
+  <div className="xs:px-4 md:px-6 lg:px-12 py-6 flex flex-col xs:items-start">
             <p className="xs:text-2xl lg:text-4xl text-white">Connect</p>
                         <p className="text-white mt-3 xs:text-xs lg:text-base">Designed & Developed by Nipun. Built with Next.js, React.js, Typescript, and Tailwind CSS.</p>
             <ul className="flex items-center gap-3 mt-3">

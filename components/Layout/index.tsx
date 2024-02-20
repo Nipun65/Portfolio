@@ -6,7 +6,7 @@ interface LayoutProps {
     children:React.ReactNode
 }
 const Layout:React.FC<LayoutProps> = ({children}) =>{
-return( <div className="h-screen">
+return( <div className="h-screen relative">
     <Header />
     {children}
     <Footer/>

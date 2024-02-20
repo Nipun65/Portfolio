@@ -15,7 +15,7 @@ const Experience:React.FC<ExperienceProps> = ({data}) =>{
             <p>{data.duration}</p>
             </div>
             <ul>
-{data.description.map((value:string)=><li className="text-[#333333] font-medium list-disc">{value}</li>)}
+{data.description.map((value:string)=><li className="text-[#333333] font-medium list-disc" key={value}>{value}</li>)}
             </ul>
             </div>
             <div className="text-[#666666] text-right w-full text-nowrap xs:hidden lg:block xs:text-sm">
