@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   margin: 0;
   scroll-behavior: smooth;
 }
-
 
 .change-font {
   color: #eb3486;
@@ -16,35 +14,39 @@ body {
   animation-iteration-count: initial;
 }
 
+.card-tag {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
 .svg-color {
   fill: #b3afaf;
 }
 
-.svg-color:hover{
+.svg-color:hover {
   fill: white;
   transition: fill cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
 }
+
 .header-div {
   position: sticky !important;
 }
 
 @keyframes fontChange {
-  0% {
-    font-family: 'Major Mono Display', monospace;
-  }
   20% {
-    font-family: 'Kaushan Script', cursive;
+    font-family: "Lobster", sans-serif;
   }
   40% {
-    font-family: 'Lobster', cursive;
+    font-family: "Courier", sans-serif;
   }
   60% {
-    font-family: 'Ranchers', cursive;
+    font-family: "Dancing Script", cursive;
   }
   80% {
-    font-family: 'Bitter', serif;
+    font-family: "Poppins", sans-serif;
   }
   100% {
-    font-family: 'Major Mono Display', monospace;
+    font-family: "Caveat", cursive;
   }
 }
