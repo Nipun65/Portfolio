@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
         <Image
           src={project}
           alt="project icon"
-          className="w-full h-32 rounded-lg"
+          className="w-full h-32 rounded-t-lg"
         />
         <div className="p-3">
           <p className="text-[#333333] text-xl font-bold">{data.name}</p>

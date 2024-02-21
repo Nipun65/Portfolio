@@ -8,7 +8,7 @@ body {
 }
 
 .change-font {
-  color: #eb3486;
+  color: #ee1b7a;
   animation-name: fontChange;
   animation-duration: 2s;
   animation-iteration-count: initial;

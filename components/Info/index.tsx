@@ -1,5 +1,7 @@
 import Image from "next/image";
 import personal from "../../public/personal.jpg";
+// import Link from "next/link";
+
 const Info = () => {
   return (
     <div className="bg-[#cbc4f7] xs:h-fit md:h-[90%] p-8 flex justify-center">
@@ -14,7 +16,17 @@ const Info = () => {
             Hello!
           </div>
 
-          <div className="xs:text-md md:text-xl lg:text-2xl">{`I'm Nipun, a Software Engineer committed to solving real-world problems with optimal solutions. I hold a Bachelor's degree in Information and Communication Technology from Dhirubhai Ambani Institute of Information and Technology, specializing in crafting user-friendly and visually appealing websites. Outside of work, I enjoy playing cricket, listening to music, and exploring new things. My ultimate goal is to enhance human life by leveraging technology to solve complex challenges.`}</div>
+          <div className="xs:text-md md:text-xl lg:text-2xl">
+            {`I'm Nipun, a Software Engineer with a passion for solving real-world challenges using optimal solutions. My specialization is in crafting user-friendly and visually appealing websites. Outside of work, I enjoy playing cricket, listening to music, and exploring new things.`}
+            {/* &nbsp;
+            <Link
+              className="font-bold xs:text-md md:text-xl lg:text-2xl underline text-purple-500"
+              href={"mailto:nipunpatel7@gmail.com"}
+              target="__blank"
+            >
+              Let's Work Together.
+            </Link> */}
+          </div>
         </div>
       </div>
     </div>

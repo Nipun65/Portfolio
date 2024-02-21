@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div
       className={`z-50 xs:px-2 xs:py-2 md:px-6 md:py-4 lg:px-12 w-full py-6 xs:h-[8%] lg:h-[10%] flex justify-between ${
-        pathname !== "/work" && "bg-[#cbc4f7]"
+        pathname !== "/experience" && "bg-[#cbc4f7]"
       } items-center top-0`}
     >
       <Link
@@ -28,11 +28,11 @@ const Header = () => {
         </Link>
         <Link
           className={`cursor-pointer w-fit hover:text-gray-300 transition hover:opacity-80 ease-in-out duration-500 ${
-            pathname === "/work" && "text-purple-500"
+            pathname === "/experience" && "text-purple-500"
           }`}
-          href="/work"
+          href="/experience"
         >
-          Work
+          Experience
         </Link>
         <Link
           className={`cursor-pointer w-fit hover:text-gray-300 transition ease-in-out duration-500 hover:opacity-80`}
