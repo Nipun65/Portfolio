@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-[#15151e]">
-      <div className=" inset-0">
+      <div className="inset-0">
         <div className="xs:px-4 xs:py-4 md:px-6 md:py-4 lg:px-12 lg:py-6 flex flex-col xs:items-start">
           <p className="xs:text-xl md:text-3xl lg:text-4xl text-white">
             Connect

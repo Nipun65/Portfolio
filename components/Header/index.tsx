@@ -6,12 +6,14 @@ const Header = () => {
   const pathname = usePathname();
   return (
     <div
-      className={`z-50 xs:px-2 xs:py-2 md:px-6 md:py-4 lg:px-12 w-full py-6 xs:h-[8%] lg:h-[10%] flex justify-between ${
-        pathname !== "/experience" && "bg-[#cbc4f7]"
+      className={`backdrop-blur-sm z-50 xs:px-2 xs:py-2 md:px-6 md:py-4 lg:px-12 w-full py-6 xs:h-[8%] lg:h-[10%] flex justify-between items-center ${
+        pathname === "/experience"
+          ? "fixed bg-transparent"
+          : "sticky bg-[#cbc4f7]"
       } items-center top-0`}
     >
       <Link
-        className="xs:text-xl sm:text-xl md:text-3xl lg:text-5xl px-4 xs:tracking-tighter  lg:tracking-[-0.1rem] font-normal font-['Mulish']"
+        className="xs:text-xl sm:text-xl md:text-3xl lg:text-4xl px-4 xs:tracking-tighter lg:tracking-[-0.1rem] font-normal font-['Mulish']"
         href={"/"}
         style={{ padding: "0" }}
       >

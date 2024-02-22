@@ -1,10 +1,9 @@
 import Image from "next/image";
 import personal from "../../public/personal.jpg";
-// import Link from "next/link";
 
 const Info = () => {
   return (
-    <div className="bg-[#cbc4f7] xs:h-fit md:h-[90%] p-8 flex justify-center">
+    <section className="bg-[#cbc4f7] xs:h-fit md:h-[90%] p-8 flex justify-center">
       <div className="text-left mt-6 flex xs:gap-8 sm:gap-16 xs:justify-start lg:justify-center xs:flex-col sm:flex-row items-center xs:mx-8 md:mx-32 lg:mx-40 container">
         <Image
           src={personal}
@@ -29,7 +28,7 @@ const Info = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Info;

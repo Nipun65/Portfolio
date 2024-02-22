@@ -33,8 +33,7 @@ const Projects = () => {
   });
 
   return (
-    <section className="bg-[#f7df1e4D] relative h-fit xs:p-4 md:p-6 lg:p-12">
-      {" "}
+    <section className="bg-gradient-to-b from-[#f7df1e4D] to-[#8383FF] relative h-fit xs:p-4 md:p-6 lg:p-12">
       <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold mb-2 text-[#333333]">
         Projects
       </h3>
@@ -43,7 +42,7 @@ const Projects = () => {
           {constants.PORTFOLIO.map((project: any) => (
             <Card data={project} key={project.name} />
           ))}
-        </div>{" "}
+        </div>
       </div>
     </section>
   );

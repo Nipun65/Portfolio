@@ -7,11 +7,11 @@ const Experience: React.FC<ExperienceProps> = ({ data }) => {
   return (
     <div className="flex justify-start xs:gap-2 sm:gap-16 md:gap-32 lg:gap-48 mb-6">
       <div>
-        <p className="font-bold lg:mb-2 xs:mb-0 xs:text-xl md:text-2xl lg:text-3xl text-[#333333]">
+        <p className="font-bold xs:mb-0 xs:text-xl md:text-2xl lg:text-3xl text-[#333333]">
           {data.company}
-          <p className="font-bold opacity-80 xs:mb-0 lg:mb-3 xs:text-sm lg:text-xl">
-            {data.role}
-          </p>
+        </p>
+        <p className="font-bold opacity-70 xs:mb-0 lg:mb-3 xs:text-sm lg:text-xl">
+          {data.role}
         </p>
         <div className="text-[#666666] font-medium mb-3 text-left w-full xs:block lg:hidden text-nowrap xs:text-sm">
           <p>{data.location}</p>

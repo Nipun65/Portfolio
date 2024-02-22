@@ -3,7 +3,7 @@ import { constants } from "@/utilities";
 
 const Skills = () => {
   return (
-    <section className="xs:p-4 md:p-6 lg:p-12 bg-[#cbc4f7] relative">
+    <section className="xs:p-4 md:p-6 lg:p-12 bg-[#8383FF] relative">
       <h3 className="xs:text-xl md:text-3xl lg:text-4xl mb-2 font-bold text-[#333333]">
         Skills
       </h3>
