@@ -40,12 +40,12 @@ const EXPERIENCES = [
     description: [
       "I used to manage the onboarding and offboarding process using HR software. Additionally, I demonstrated my expertise by developing multiple browser support extensions, including a LinkedIn extension that scrapes user profiles, converts the data into JSON format, and stores it in a Firebase database. Furthermore, I expanded the application’s reach and capabilities by working on Google Cloud Platform (GCP) and developing LinkedIn browser extensions.",
     ],
-    duration: "Aug 2022 - Feb 2024",
+    duration: "Jan 2022 – Jul 2022",
     location: "Pune, Maharashtra",
   },
   {
     company: "EduCARE India NGO",
-    role: "Web Developer",
+    role: "Web Developer Intern",
     logo: "",
     description: [
       "I had the privilege of designing and developing a website for Educare India, an impactful platform that effectively connects passionate volunteers with NGOs, fostering meaningful collaborations and making a positive difference in the community.",

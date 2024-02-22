@@ -9,6 +9,9 @@ const Experience: React.FC<ExperienceProps> = ({ data }) => {
       <div>
         <p className="font-bold lg:mb-2 xs:mb-0 xs:text-xl md:text-2xl lg:text-3xl text-[#333333]">
           {data.company}
+          <p className="font-bold opacity-80 xs:mb-0 lg:mb-3 xs:text-sm lg:text-xl">
+            {data.role}
+          </p>
         </p>
         <div className="text-[#666666] font-medium mb-3 text-left w-full xs:block lg:hidden text-nowrap xs:text-sm">
           <p>{data.location}</p>
@@ -22,7 +25,7 @@ const Experience: React.FC<ExperienceProps> = ({ data }) => {
           ))}
         </ul>
       </div>
-      <div className="text-[#666666] text-right w-full text-nowrap xs:hidden lg:block xs:text-sm">
+      <div className="text-[#666666] text-right w-full text-nowrap xs:hidden lg:block lg:text-base  xs:text-sm">
         <p>{data.location}</p>
         <p>{data.duration}</p>
       </div>
