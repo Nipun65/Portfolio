@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { constants } from "@/utilities";
+import { Skill } from "@/interfaces";
 
 const Skills = () => {
   return (
@@ -8,7 +9,7 @@ const Skills = () => {
         Skills
       </h3>
       <div className="place-items-center my-6 grid grid-flow-row grid-cols-4 gap-3 z-20">
-        {constants?.SKILLS?.map((skill: any) => (
+        {constants?.SKILLS?.map((skill: Skill) => (
           <Link
             href={skill.link}
             key={skill.skill}

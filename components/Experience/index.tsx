@@ -1,7 +1,8 @@
+import { ExperienceType } from "@/interfaces";
 import React from "react";
 
 interface ExperienceProps {
-  data: any;
+  data: ExperienceType;
 }
 const Experience: React.FC<ExperienceProps> = ({ data }) => {
   return (

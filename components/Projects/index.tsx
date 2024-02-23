@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { constants } from "@/utilities";
+import { Project } from "@/interfaces";
 import Card from "../Card";
 
 const Projects = () => {
@@ -39,7 +40,7 @@ const Projects = () => {
       </h3>
       <div className="p-12 projects-wrapper overflow-y-hidden overflow-x-hidden">
         <div className="flex gap-3 w-full flex-nowrap my-6 scroll-tag">
-          {constants.PORTFOLIO.map((project: any) => (
+          {constants.PORTFOLIO.map((project: Project) => (
             <Card data={project} key={project.name} />
           ))}
         </div>

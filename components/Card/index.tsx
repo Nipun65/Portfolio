@@ -1,9 +1,10 @@
 import Image from "next/image";
 import project from "@/public/project.jpg";
 import Link from "next/link";
+import { Project } from "@/interfaces";
 
 interface CardProps {
-  data: any;
+  data: Project;
 }
 
 const Card: React.FC<CardProps> = ({ data }) => {
