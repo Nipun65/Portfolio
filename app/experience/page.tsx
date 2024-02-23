@@ -5,8 +5,8 @@ import { constants } from "@/utilities";
 const Work = () => {
   return (
     <Layout>
-      <div className="xs:mt-16 md:mt-16 lg:mt-20 mx-auto border border-gray-200" />
-      <div className="xs:px-8 lg:px-16 xs:py-2 md:py-3 lg:py-6">
+      {/* <div className="xs:mt-[4.7rem] lg:mt-20 mx-auto border border-gray-200" /> */}
+      <div className="xs:mt-14 md:mt-[4.2rem] lg:mt-[5.9rem] xs:px-8 lg:px-16 xs:py-2 md:py-3 lg:py-6">
         <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold  text-[#333333] xs:my-2 lg:my-4 m-auto">
           Experience
         </h3>

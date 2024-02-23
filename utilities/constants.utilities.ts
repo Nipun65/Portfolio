@@ -172,11 +172,6 @@ const SKILLS = [
     link: "https://www.geeksforgeeks.org/c-plus-plus/",
     logo: cplusImg,
   },
-  {
-    skill: "C",
-    link: "https://www.geeksforgeeks.org/c-programming-language/",
-    logo: cImg,
-  },
 ];
 
 export { EXPERIENCES, PORTFOLIO, SKILLS };

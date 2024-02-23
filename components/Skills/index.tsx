@@ -3,7 +3,7 @@ import { constants } from "@/utilities";
 
 const Skills = () => {
   return (
-    <section className="xs:p-4 md:p-6 lg:p-12 bg-[#8383FF] relative">
+    <section className="xs:p-4 md:p-6 lg:p-12 bg-[#8383FF]">
       <h3 className="xs:text-xl md:text-3xl lg:text-4xl mb-2 font-bold text-[#333333]">
         Skills
       </h3>
@@ -20,7 +20,7 @@ const Skills = () => {
               alt={`${skill.skill}`}
               className="xs:h-10 xs:w-10 lg:h-14 lg:w-14 hover:scale-105 hover:transition ease-in-out backdrop-filter"
             />
-            <p className="font-bold xs:text-[10px] md:text-base">
+            <p className="font-bold text-[#040404] xs:text-[10px] md:text-base">
               {skill.skill}
             </p>
           </Link>

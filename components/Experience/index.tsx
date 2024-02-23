@@ -19,7 +19,10 @@ const Experience: React.FC<ExperienceProps> = ({ data }) => {
         </div>
         <ul>
           {data.description.map((value: string) => (
-            <li className="text-[#333333] font-medium list-disc" key={value}>
+            <li
+              className="text-[#333333] xs:text-sm md:text-base lg:text-lg font-medium list-disc"
+              key={value}
+            >
               {value}
             </li>
           ))}
