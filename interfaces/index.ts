@@ -14,10 +14,17 @@ interface ExperienceType {
   location: string;
 }
 
+interface EducationType {
+  university: string;
+  degree: string;
+  duration: string;
+  location: string;
+}
+
 interface Skill {
   skill: string;
   link: string;
   logo: any;
 }
 
-export type { Project, ExperienceType, Skill };
+export type { Project, ExperienceType, Skill, EducationType };

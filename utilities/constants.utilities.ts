@@ -26,9 +26,10 @@ const EXPERIENCES = [
     role: "Software Engineer",
     logo: "",
     description: [
-      "As a highly valued member of an Agile team. Leveraging my extensive software development expertise, I have made significant contributions in driving improvements, playing a pivotal role in enhancing performance and achieving success. My key responsibilities have involved designing, developing, and deploying a range of features that have greatly enhanced the application’s user experience, scalability, and performance.",
-      "As an individual contributor, I have successfully worked on multiple client projects, engaging in detailed discussions with clients to understand their requirements and developing features accordingly. Additionally, I have designed and built SEO-optimized websites using Next.js, ensuring they are responsive and user-friendly, delivering exceptional experiences to users.",
-      "As a team member, Developed an onboarding settings feature that sends email notifications to users, a profile data history functionality for users to view their data history, and enhanced the application’s usability by updating table dimensions based on column selection. Created a common directive for the team members to display dynamic information. Implemented a chat feature for users and administrators, developed the functionality to display email using user ID, and added the capability to download attached files and handle blob objects, significantly enriching the application’s functionality and user experience. Created reusable components, optimized existing components, resolved bugs, and implemented best practices to enhance functionality and performance, resulting in a more robust, scalable, and efficient application.",
+      "Developed and improved reusable components within a dynamic team, driving the creation of multiple features.",
+      "Developed a frontend application with multi-role support for viewing farmer data and created a web application to migrate Apigee services.",
+      "Engineered a cost-effective web application solution, decreasing company billing costs by 30% through effective management of unused Google instances.",
+      "Explored navigator, mediadevices, geolocation, crypto web APIs, delved into JWT validation algorithms, and implemented SEO-optimized static HTML rendering using Next.js.",
     ],
     duration: "Aug 2022 - Feb 2024",
     location: "Pune, Maharashtra",
@@ -38,7 +39,9 @@ const EXPERIENCES = [
     role: "Software Engineer Intern",
     logo: "",
     description: [
-      "I used to manage the onboarding and offboarding process using HR software. Additionally, I demonstrated my expertise by developing multiple browser support extensions, including a LinkedIn extension that scrapes user profiles, converts the data into JSON format, and stores it in a Firebase database. Furthermore, I expanded the application’s reach and capabilities by working on Google Cloud Platform (GCP) and developing LinkedIn browser extensions.",
+      "Developed multi-browser support LinkedIn profile scraping extensions and managed existing extensions for seamless functionality.",
+      "Contributed to the development of user onboarding features for the product within a team.",
+      "Implemented Google OAuth for authentication and utilized Firebase Realtime Database for a chat application.",
     ],
     duration: "Jan 2022 – Jul 2022",
     location: "Pune, Maharashtra",
@@ -48,7 +51,7 @@ const EXPERIENCES = [
     role: "Web Developer Intern",
     logo: "",
     description: [
-      "I had the privilege of designing and developing a website for Educare India, an impactful platform that effectively connects passionate volunteers with NGOs, fostering meaningful collaborations and making a positive difference in the community.",
+      "Designed and developed Educare India website, connecting volunteers with NGOs for positive community impact.",
     ],
     duration: "5th December 2019 - 31st December 2019",
     location: "Himachal Pradesh",
@@ -174,4 +177,13 @@ const SKILLS = [
   },
 ];
 
-export { EXPERIENCES, PORTFOLIO, SKILLS };
+const EDUCATION = [
+  {
+    university:
+      "Dhirubhai Ambani Institute of Information and Communication Technology",
+    degree: "Information and Communication Technology",
+    location: "Gandhinagar, Gujarat",
+    duration: "2018-2022",
+  },
+];
+export { EXPERIENCES, PORTFOLIO, SKILLS, EDUCATION };

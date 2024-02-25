@@ -35,18 +35,18 @@ body {
 
 @keyframes fontChange {
   20% {
-    font-family: "Lobster", sans-serif;
+    font-family: var(--font-lobster);
   }
   40% {
-    font-family: "Courier", sans-serif;
+    font-family: var(--font-courier);
   }
   60% {
-    font-family: "Dancing Script", cursive;
+    font-family: var(--font-dancing-script);
   }
   80% {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-poppins);
   }
   100% {
-    font-family: "Caveat", cursive;
+    font-family: var(--font-caveat);
   }
 }

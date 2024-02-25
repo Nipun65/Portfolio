@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <section className="bg-gradient-to-b from-[#f377354d] to-[#8383FF] relative h-fit xs:p-4 md:p-6 lg:p-12">
-      <h3 className="xs:text-xl md:text-3xl lg:text-4xl fon4dt-bold mb-2 text-[#333333]">
+      <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold mb-2 text-[#333333]">
         Projects
       </h3>
       <div className="p-12 projects-wrapper overflow-y-hidden overflow-x-hidden">

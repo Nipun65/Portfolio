@@ -6,9 +6,9 @@ const Header = () => {
   const pathname = usePathname();
   return (
     <div
-      className={`backdrop-blur-sm z-50 xs:px-2 xs:py-2 md:px-6 md:py-4 lg:px-12 w-full py-6 xs:h-[8%] lg:h-[10%] flex justify-between items-center ${
+      className={`backdrop-blur-sm z-50 xs:px-2 xs:py-2 md:px-6 md:py-4 lg:px-12 w-full py-6 xs:h-fit  lg:h-[10%] flex justify-between items-center ${
         pathname === "/experience"
-          ? "fixed bg-transparent"
+          ? "sticky bg-transparent"
           : "sticky bg-[#cbc4f7]"
       } items-center top-0`}
     >
@@ -38,7 +38,7 @@ const Header = () => {
         </Link>
         <Link
           className={`cursor-pointer w-fit hover:text-gray-300 transition ease-in-out duration-500 hover:opacity-80`}
-          href="https://drive.google.com/file/d/13jKDAB_h1er5Vo-awbnYByPApuoiY3Zb/view"
+          href="https://drive.google.com/file/d/1-Z5n6Ol6FLTOHr6797ePn-uU4229D_3Y/view"
           target="__blank"
         >
           Resume
