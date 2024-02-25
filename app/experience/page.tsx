@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <Layout>
       {/* <div className="xs:mt-[4.7rem] lg:mt-20 mx-auto border border-gray-200" /> */}
-      <div className="xs:px-8 lg:px-16 xs:py-2 md:py-3 lg:py-6">
+      <div className="xs:mx-8 lg:mx-16 xs:my-2 md:my-3 lg:my-6">
         <div>
           <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold text-[#333333] xs:my-2 lg:my-4 m-auto">
             Experience
@@ -20,7 +20,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div>
+        <div className="xs:mt-2 md:mt-4 lg:mt-8">
           <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold text-[#333333] xs:my-2 lg:my-4 m-auto">
             Education
           </h3>
