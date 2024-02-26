@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
           <p className="text-[#333333] text-xl font-bold">{data.name}</p>
           <p className="text=[#666666] text-sm">{data.description}</p>
         </div>
-        <div className="bg-[#131313] h group-hover:block group-hover:backdrop-blur-xl absolute hidden rounded-lg h-full w-full top-0 opacity-25" />
+        <div className="bg-[#131313] h group-hover:block group-hover:backdrop-blur-xl absolute hidden rounded-lg h-full w-full top-0 opacity-10" />
         <p className="absolute right-2 bottom-2">
           {"</"}
           {data.language}

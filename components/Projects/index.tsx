@@ -19,7 +19,7 @@ const Projects = () => {
     const tween = gsap.to(projects, {
       x: getScrollAmount as any,
       duration: 3,
-      ease: "none",
+      ease: "power1.out",
     });
 
     ScrollTrigger.create({
@@ -28,7 +28,7 @@ const Projects = () => {
       end: () => `+=${(getScrollAmount?.() as any) * -1}`,
       pin: true,
       animation: tween,
-      scrub: 1,
+      scrub: 0.4,
       invalidateOnRefresh: true,
     });
   });
