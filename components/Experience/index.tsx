@@ -23,9 +23,8 @@ const Experience: React.FC<ExperienceProps> = ({ data }) => {
             <li
               className="text-[#333333] xs:text-sm md:text-base lg:text-lg font-medium list-disc"
               key={value}
-            >
-              {value}
-            </li>
+              dangerouslySetInnerHTML={{ __html: value }}
+            ></li>
           ))}
         </ul>
       </div>
