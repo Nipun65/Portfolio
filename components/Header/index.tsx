@@ -38,7 +38,7 @@ const Header = () => {
         </Link>
         <Link
           className={`cursor-pointer w-fit hover:text-gray-300 transition ease-in-out duration-500 hover:opacity-80`}
-          href="https://drive.google.com/file/d/1-Z5n6Ol6FLTOHr6797ePn-uU4229D_3Y/view"
+          href="https://drive.google.com/file/d/1suaAMMh0RA4-xx4-FvOUWKuAyYI9u62M/view"
           target="__blank"
         >
           Resume
