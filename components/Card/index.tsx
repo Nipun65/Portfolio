@@ -16,7 +16,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
     >
       <div className="relative h-full group-hover:backdrop-filter">
         <Image
-          src={project}
+          src={data?.image || project}
           alt="project icon"
           className="w-full h-32 rounded-t-lg"
         />

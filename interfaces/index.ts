@@ -1,8 +1,11 @@
+import { StaticImageData } from "next/image";
+
 interface Project {
   name: string;
   link: string;
   language: string;
   description: string;
+  image?: StaticImageData;
 }
 
 interface ExperienceType {

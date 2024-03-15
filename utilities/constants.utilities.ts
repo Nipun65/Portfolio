@@ -6,7 +6,6 @@ import pugImg from "@/public/skills/pug.svg";
 import cssImg from "@/public/skills/css.svg";
 import pythonImg from "@/public/skills/python.png";
 import cplusImg from "@/public/skills/c++.png";
-import cImg from "@/public/skills/c.png";
 import firebaseImg from "@/public/skills/firebase.png";
 import jiraImg from "@/public/skills/jira.svg";
 import mongodb from "@/public/skills/mongodb.webp";
@@ -19,6 +18,11 @@ import vuejs from "@/public/skills/Vuejs.svg";
 import tailwindcss from "@/public/skills/TailwindCSS.svg";
 import materialui from "@/public/skills/materialui.svg";
 import redux from "@/public/skills/redux.svg";
+import ecommerce from "@/public/projects/ecommerce.png";
+import office from "@/public/projects/office.png";
+import login from "@/public/projects/loginpage.png";
+import snake from "@/public/projects/snake.png";
+import tictactoe from "@/public/projects/tictactoe.png";
 
 const EXPERIENCES = [
   {
@@ -60,17 +64,40 @@ const EXPERIENCES = [
 
 const PORTFOLIO = [
   {
-    name: "Ecommerce Website",
-    link: "https://github.com/Nipun65/Ecommerce-Website",
-    language: "NodeJS",
-    description: "Ecommerce website to sell and buy products",
+    name: "Tic-tac-toe",
+    link: "https://tictactoevanila.vercel.app/",
+    language: "Javascript",
+    description: "Tic-tac-toe game using Javascript",
+    image: tictactoe,
   },
   {
     name: "SEO NextJS",
-    link: "https://github.com/Nipun65/nextjs-seo",
+    link: "https://seo-the-office.vercel.app/",
     language: "NextJS",
     description:
       "Character Details of 'The Office': SEO - Static HTML rendering",
+    image: office,
+  },
+  {
+    name: "Ecommerce Website",
+    link: "https://ecommerce-website-1-xbui.onrender.com/",
+    language: "NodeJS",
+    description: "Ecommerce website to sell and buy products",
+    image: ecommerce,
+  },
+  {
+    name: "Snake",
+    link: "https://github.com/Nipun65/snake.js",
+    language: "Javascript",
+    description: "Snake game using Javascript",
+    image: snake,
+  },
+  {
+    name: "Login Page",
+    link: "https://log-in-page-react.vercel.app/",
+    language: "ReactJS",
+    description: "Login Page Demo",
+    image: login,
   },
   {
     name: "Expense List",
@@ -79,28 +106,10 @@ const PORTFOLIO = [
     description: "Webapp for tracking expenses",
   },
   {
-    name: "Login Page",
-    link: "https://github.com/Nipun65/LogIn-Page",
-    language: "ReactJS",
-    description: "Login Page Demo",
-  },
-  {
     name: "Todo",
     link: "https://github.com/Nipun65/Todo-Web-Application",
     language: "Angular",
     description: "A todo app :)",
-  },
-  {
-    name: "Snake",
-    link: "https://github.com/Nipun65/snake.js",
-    language: "Javascript",
-    description: "Snake game using Javascript",
-  },
-  {
-    name: "Tic-tac-toe",
-    link: "https://github.com/Nipun65/tictactoe",
-    language: "Javascript",
-    description: "Tic-tac-toe game using Javascript",
   },
   {
     name: "RandomMeme",

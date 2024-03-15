@@ -28,7 +28,7 @@ const Experience: React.FC<ExperienceProps> = ({ data }) => {
           ))}
         </ul>
       </div>
-      <div className="text-[#666666] text-right w-fit xs:text-wrap md:text-nowrap xs:hidden lg:block lg:text-base  xs:text-sm">
+      <div className="text-[#666666] text-right w-fit xs:text-wrap md:text-nowrap xs:hidden lg:block lg:text-base xs:text-sm">
         <p>{data.location}</p>
         <p>{data.duration}</p>
       </div>

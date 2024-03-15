@@ -19,7 +19,7 @@ const Education: React.FC<EducationProps> = ({ data }) => {
           <p>{data.duration}</p>
         </div>
       </div>
-      <div className="w-fit xs:hidden lg:block text-nowrap">
+      <div className="w-fit xs:hidden lg:block text-nowrap text-right text-[#666666]">
         <p>{data.location}</p>
         <p>{data.duration}</p>
       </div>
