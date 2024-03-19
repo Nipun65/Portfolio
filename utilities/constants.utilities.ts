@@ -23,6 +23,7 @@ import office from "@/public/projects/office.png";
 import login from "@/public/projects/loginpage.png";
 import snake from "@/public/projects/snake.png";
 import tictactoe from "@/public/projects/tictactoe.png";
+import collab from "@/public/projects/collab.png";
 
 const EXPERIENCES = [
   {
@@ -64,6 +65,13 @@ const EXPERIENCES = [
 
 const PORTFOLIO = [
   {
+    name: "Collab Platform",
+    link: "https://collabplatform.vercel.app/",
+    language: "Next.js",
+    description: "Platform, where you can post and team up with others",
+    image: collab,
+  },
+  {
     name: "Tic-tac-toe",
     link: "https://tictactoevanila.vercel.app/",
     language: "Javascript",
@@ -73,7 +81,7 @@ const PORTFOLIO = [
   {
     name: "SEO NextJS",
     link: "https://seo-the-office.vercel.app/",
-    language: "NextJS",
+    language: "Next.js",
     description:
       "Character Details of 'The Office': SEO - Static HTML rendering",
     image: office,
@@ -81,7 +89,7 @@ const PORTFOLIO = [
   {
     name: "Ecommerce Website",
     link: "https://ecommerce-website-1-xbui.onrender.com/",
-    language: "NodeJS",
+    language: "Node.js",
     description: "Ecommerce website to sell and buy products",
     image: ecommerce,
   },
@@ -95,14 +103,14 @@ const PORTFOLIO = [
   {
     name: "Login Page",
     link: "https://log-in-page-react.vercel.app/",
-    language: "ReactJS",
+    language: "React.js",
     description: "Login Page Demo",
     image: login,
   },
   {
     name: "Expense List",
     link: "https://github.com/Nipun65/ExpenseList",
-    language: "ReactJS",
+    language: "React.js",
     description: "Webapp for tracking expenses",
   },
   {
@@ -120,7 +128,7 @@ const PORTFOLIO = [
   {
     name: "Video GamesDB",
     link: "https://github.com/Nipun65/VideogameDB",
-    language: "ReactJS",
+    language: "React.js",
     description: "Information about the games",
   },
   {
