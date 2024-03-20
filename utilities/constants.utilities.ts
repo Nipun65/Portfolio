@@ -23,7 +23,7 @@ import office from "@/public/projects/office.png";
 import login from "@/public/projects/loginpage.png";
 import snake from "@/public/projects/snake.png";
 import tictactoe from "@/public/projects/tictactoe.png";
-import collab from "@/public/projects/collab.png";
+import collab from "@/public/projects/collabplatform.png";
 
 const EXPERIENCES = [
   {
