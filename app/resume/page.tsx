@@ -1,7 +1,7 @@
 const Resume = () => {
   return (
     <iframe
-      src="https://drive.google.com/file/d/1TslKC2mAGikmq4cLAiZvOe_j_ynzaOlL/preview?usp=drivesdk"
+      src="https://drive.google.com/file/d/1jCaAaBEAQPAG5WaKzy_pX9lJV-8Y_Y3T/preview?usp=drivesdk"
       className="h-screen w-full"
     ></iframe>
   );
