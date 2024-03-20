@@ -145,6 +145,8 @@ const SKILLS = [
   { skill: "Angular", link: "https://angular.io", logo: angularImg },
   { skill: "Vue.js", link: "https://vuejs.org", logo: vuejs },
   { skill: "Redux", link: "https://redux.js.org", logo: redux },
+  { skill: "Node.js", link: "https://nodejs.org/en/docs", logo: nodejs },
+  { skill: "MongoDB", link: "https://www.mongodb.com/", logo: mongodb },
   { skill: "Tailwind", link: "https://tailwindcss.com", logo: tailwindcss },
   { skill: "Material UI", link: "https://mui.com", logo: materialui },
   {
@@ -168,8 +170,6 @@ const SKILLS = [
     link: "https://pugjs.org/api/getting-started.html",
     logo: pugImg,
   },
-  { skill: "Node.js", link: "https://nodejs.org/en/docs", logo: nodejs },
-  { skill: "MongoDB", link: "https://www.mongodb.com/", logo: mongodb },
   {
     skill: "Firebase",
     link: "https://firebase.google.com/",
