@@ -14,7 +14,7 @@ const Projects = () => {
       (parentDiv as HTMLElement).style.height = `${
         (projects as HTMLElement)?.scrollWidth -
         window.innerWidth +
-        (window.innerWidth <= 500 ? 790 : 930)
+        (window.innerWidth <= 500 ? 850 : 930)
       }px`;
     }
 
@@ -41,7 +41,7 @@ const Projects = () => {
         percentage <
           (projects as HTMLElement)?.scrollWidth -
             window.innerWidth +
-            (window.innerWidth <= 500 ? 120 : 230)
+            (window.innerWidth <= 500 ? 170 : 230)
       ) {
         (
           scrollSection as HTMLElement
