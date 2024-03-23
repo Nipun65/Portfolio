@@ -10,7 +10,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ data }) => {
   return (
     <Link
-      className="rounded-lg group border min-h-64 min-w-72 shadow-sm card-tag"
+      className="rounded-lg group border min-h-[17rem] min-w-80 max-w-80 shadow-sm card-tag"
       href={data.link}
       target="__blank"
     >

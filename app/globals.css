@@ -9,9 +9,7 @@ body {
 
 .change-font {
   color: #ee1b7a;
-  animation-name: fontChange;
-  animation-duration: 2s;
-  animation-iteration-count: initial;
+  animation: font-play 2s ease-in-out;
 }
 
 .card-tag {
@@ -52,6 +50,23 @@ body {
   transition: opacity 300ms, width 300ms;
 }
 
+.sticky-div {
+  overflow: hidden;
+  position: sticky;
+  top: 30%;
+}
+
+.scroll-content {
+  position: absolute;
+  top: 0;
+  will-change: transform;
+  display: flex;
+}
+
+.intro {
+  animation: play 400ms ease-in-out;
+}
+
 @media (width>=1024px) {
   .highlight:hover::after,
   .highlight:focus::after {
@@ -84,7 +99,18 @@ body {
   }
 }
 
-@keyframes fontChange {
+@keyframes play {
+  0% {
+    transform: translate3d(20px, 100px, 10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes font-play {
   20% {
     font-family: var(--font-lobster);
   }
