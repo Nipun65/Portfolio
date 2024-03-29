@@ -24,6 +24,8 @@ import login from "@/public/projects/loginpage.png";
 import snake from "@/public/projects/snake.png";
 import tictactoe from "@/public/projects/tictactoe.png";
 import collab from "@/public/projects/collabplatform.png";
+import calendartodo from "@/public/projects/calendartodo.png";
+import weatherapp from "@/public/projects/weatherapp.png";
 
 const EXPERIENCES = [
   {
@@ -48,7 +50,7 @@ const EXPERIENCES = [
       "Contributed to the development of <span class='highlight'>user onboarding features</span> for the product within a team.",
       "Implemented <span class='highlight'>Google OAuth for authentication</span> and utilized Firebase Realtime Database for a chat application.",
     ],
-    duration: "Jan 2022 – Jul 2022",
+    duration: "Jan 2022 - Jul 2022",
     location: "Pune, Maharashtra",
   },
   {
@@ -83,7 +85,7 @@ const PORTFOLIO = [
     link: "https://seo-the-office.vercel.app/",
     language: "Next.js",
     description:
-      "Character Details of 'The Office': SEO - Static HTML rendering",
+      "Character details of 'The Office': SEO - Static HTML rendering",
     image: office,
   },
   {
@@ -94,6 +96,13 @@ const PORTFOLIO = [
     image: ecommerce,
   },
   {
+    name: "Weather App",
+    link: "https://weather-insights.vercel.app/",
+    language: "React.js",
+    description: "A user-friendly weather application for forecast updates",
+    image: weatherapp,
+  },
+  {
     name: "Snake",
     link: "https://github.com/Nipun65/snake.js",
     language: "Javascript",
@@ -101,18 +110,18 @@ const PORTFOLIO = [
     image: snake,
   },
   {
-    name: "Login Page",
-    link: "https://log-in-page-react.vercel.app/",
+    name: "Task Tracker",
+    link: "https://calendar-todos.vercel.app",
     language: "React.js",
-    description: "Login Page Demo",
-    image: login,
+    description: "Seamlessly manage your daily agenda with the task tracker",
+    image: calendartodo,
   },
-  {
-    name: "Expense List",
-    link: "https://github.com/Nipun65/ExpenseList",
-    language: "React.js",
-    description: "Webapp for tracking expenses",
-  },
+  // {
+  //   name: "Expense List",
+  //   link: "https://github.com/Nipun65/ExpenseList",
+  //   language: "React.js",
+  //   description: "Webapp for tracking expenses",
+  // },
   {
     name: "Todo",
     link: "https://github.com/Nipun65/Todo-Web-Application",

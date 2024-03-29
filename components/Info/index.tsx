@@ -10,6 +10,7 @@ const Info = () => {
           src={personal}
           alt="personal image"
           className="border-2 rounded-lg xs:h-40 xs:w-40 sm:h-30 sm:w-30 md:h-40 md:w-40 lg:h-60 lg:w-60"
+          priority
         />
         <div className="flex flex-col gap-3 w-full">
           <div className="sm:text-4xl md:text-5xl lg:text-7xl text-[#004225] change-font transition ease-in-out duration-300">
