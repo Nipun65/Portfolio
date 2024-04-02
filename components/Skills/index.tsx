@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { constants } from "@/utilities";
 import { Skill } from "@/interfaces";
 
@@ -16,9 +17,11 @@ const Skills = () => {
             target="__blank"
             className="text-center w-fit flex flex-col items-center"
           >
-            <img
+            <Image
               src={skill.logo.src}
               alt={`${skill.skill}`}
+              height={1024}
+              width={1024}
               className="xs:h-10 xs:w-10 lg:h-14 lg:w-14 hover:scale-105 hover:transition ease-in-out backdrop-filter"
             />
             <p className="font-bold text-[#040404] xs:text-[10px] md:text-base">

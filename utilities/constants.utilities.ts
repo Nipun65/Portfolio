@@ -34,9 +34,9 @@ const EXPERIENCES = [
     logo: "",
     description: [
       "Developed and improved reusable components within a dynamic team, driving the <span class='highlight'>creation of multiple features.</span>",
-      "Developed a frontend application with <span class='highlight'>multi-role support for viewing farmer data</span> and created a web application to <span class='highlight'>migrate Apigee services.</span>",
+      "Developed a frontend application with <span class='highlight'>multi-role access for viewing farmer data</span> and created a web application to <span class='highlight'>migrate Apigee services.</span>",
       "Engineered a cost-effective web application solution, <span class='highlight'>significantly reducing company billing costs</span> through effective management of unused Google instances.",
-      "Explored navigator, mediadevices, geolocation, crypto web APIs, delved into JWT validation algorithms, and implemented <span class='highlight'>SEO-optimized static HTML rendering</span> using Next.js.",
+      "Explored navigator, mediadevices, geolocation, crypto web APIs, delved into JWT validation algorithms, and implemented <span class='highlight'>SEO static HTML rendering</span> using Next.js",
     ],
     duration: "Aug 2022 - Feb 2024",
     location: "Pune, Maharashtra",
@@ -46,9 +46,9 @@ const EXPERIENCES = [
     role: "Software Engineer Intern",
     logo: "",
     description: [
-      "Developed <span class='highlight'>multi-browser support</span> LinkedIn profile scraping extensions and managed existing extensions for seamless functionality.",
+      "Developed <span class='highlight'>cross-browser compatible</span> LinkedIn profile scraping extensions and managed existing extensions for seamless functionality.",
       "Contributed to the development of <span class='highlight'>user onboarding features</span> for the product within a team.",
-      "Implemented <span class='highlight'>Google OAuth for authentication</span> and utilized Firebase Realtime Database for a chat application.",
+      "Integrated <span class='highlight'>Google OAuth for authentication</span> and utilized Firebase Realtime Database for a chat application.",
     ],
     duration: "Jan 2022 - Jul 2022",
     location: "Pune, Maharashtra",
