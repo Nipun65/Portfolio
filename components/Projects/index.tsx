@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import dynamic from "next/dynamic";
 import Lenis from "lenis";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -14,12 +15,11 @@ const Projects = () => {
 
   useGSAP(() => {
     const projects = document.querySelector(".scroll-tag");
-
     const extraWidth = window.innerWidth >= 1024 ? 165 : 110;
 
     function getScrollAmount() {
       let projectwidth = projects?.scrollWidth;
-      if (projectwidth && typeof window !== "undefined") {
+      if (projectwidth) {
         return -(projectwidth - window.innerWidth + extraWidth);
       }
     }
@@ -64,4 +64,7 @@ const Projects = () => {
     </section>
   );
 };
-export default Projects;
+
+export default dynamic(() => Promise.resolve(Projects), {
+  ssr: false,
+});
