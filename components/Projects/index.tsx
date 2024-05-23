@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import Lenis from "lenis";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { constants } from "@/utilities";
@@ -8,7 +9,9 @@ import { Project } from "@/interfaces";
 import Card from "../Card";
 
 const Projects = () => {
+  const lenis = new Lenis();
   gsap.registerPlugin(ScrollTrigger);
+
   useGSAP(() => {
     const projects = document.querySelector(".scroll-tag");
 
@@ -16,7 +19,9 @@ const Projects = () => {
 
     function getScrollAmount() {
       let projectwidth = projects?.scrollWidth;
-      if (projectwidth) return -(projectwidth - window.innerWidth + extraWidth);
+      if (projectwidth && typeof window !== "undefined") {
+        return -(projectwidth - window.innerWidth + extraWidth);
+      }
     }
 
     const tween = gsap.to(projects, {
@@ -24,6 +29,14 @@ const Projects = () => {
       duration: 3,
       ease: "none",
     });
+
+    lenis.on("scroll", ScrollTrigger.update);
+
+    gsap.ticker.add((time) => {
+      lenis.raf(time * 1000);
+    });
+
+    gsap.ticker.lagSmoothing(0);
 
     ScrollTrigger.create({
       trigger: ".projects-wrapper",
@@ -37,7 +50,7 @@ const Projects = () => {
   });
 
   return (
-    <section className="bg-gradient-to-b from-[#f377354d] to-[#8383FF] relative  xs:p-4 md:p-6 lg:p-12">
+    <section className="bg-gradient-to-b from-[#f377354d] to-[#8383FF] relative xs:p-4 md:p-6 lg:p-12">
       <h3 className="xs:text-xl md:text-3xl lg:text-4xl font-bold mb-2 text-[#333333]">
         Projects
       </h3>
