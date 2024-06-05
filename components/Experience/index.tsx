@@ -6,7 +6,7 @@ interface ExperienceProps {
 }
 const Experience: React.FC<ExperienceProps> = ({ data }) => {
   return (
-    <div className="flex justify-start xs:gap-2 sm:gap-16 md:gap-32 lg:gap-32 mb-6">
+    <div className="flex justify-between xs:gap-2 sm:gap-16 md:gap-32 lg:gap-32 mb-6">
       <div>
         <p className="font-bold xs:mb-0 xs:text-lg md:text-2xl lg:text-3xl text-[#333333]">
           {data.company}

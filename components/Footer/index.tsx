@@ -37,7 +37,7 @@ const Footer = () => {
             </svg>
           </Link>
           <Link
-            href={"https://www.linkedin.com/in/nipun-patel-328886207"}
+            href={"https://www.linkedin.com/in/nipunpatel65"}
             className="lg:h-7 lg:w-7 xs:h-6 xs:w-6 mb-1"
             target="__blank"
           >
@@ -54,4 +54,5 @@ const Footer = () => {
     </div>
   );
 };
+
 export default Footer;

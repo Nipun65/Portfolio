@@ -13,12 +13,12 @@ const Info = () => {
           priority
         />
         <div className="flex flex-col gap-3 w-full">
-          <div className="sm:text-4xl md:text-5xl lg:text-7xl text-[#004225] change-font transition ease-in-out duration-300">
+          <div className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#004225] change-font transition ease-in-out duration-300">
             Hello!
           </div>
 
-          <div className="xs:text-md md:text-xl lg:text-2xl intro">
-            {`I'm Nipun, a Software Engineer with a passion for solving real-world challenges using optimal solutions. My specialization is in crafting user-friendly and visually appealing websites. Outside of work, I enjoy playing cricket, listening to music, and exploring new things.`}
+          <div className="xs:text-md sm:text-lg md:text-xl lg:text-2xl intro">
+            {`I'm Nipun, a Software Engineer with a passion for solving real-world challenges using optimal solutions. My specialization is in crafting user-friendly and visually appealing websites. Outside of work, I enjoy cricket, music and exploring new things.`}
             {/* &nbsp;
             <Link
               className="font-bold xs:text-md md:text-xl lg:text-2xl underline text-purple-500"
@@ -33,4 +33,5 @@ const Info = () => {
     </section>
   );
 };
-export default Info;
+
+ export default Info;
