@@ -29,14 +29,28 @@ import weatherapp from "@/public/projects/weatherapp.png";
 
 const EXPERIENCES = [
   {
+    company: "Aerem Solutions Private Limited",
+    role: "Software Engineer",
+    logo: "",
+    description: [
+      "Automated <span class='highlight'>report generation</span>, <span class='highlight'>historical data fetching</span>, and <span class='highlight'>plant onboarding</span> process on the <span class='highlight'>AeROC portal</span>, improving system performance with <span class='highlight'>CronJobs</span> and implementing <span class='highlight'>RPC logic</span> for seamless component communication.",
+      "Designed and implemented a module to retrieve <span class='highlight'>historical data</span> for legacy plants, <span class='highlight'>streamlining data accessibility</span> and <span class='highlight'>analysis</span>.",
+      "Integrated <span class='highlight'>real-time</span> and <span class='highlight'>historical data</span> from <span class='highlight'>12 inverter brands</span>, ensuring seamless compatibility within the existing system.",
+      "Developed a <span class='highlight'>web push notification</span> feature for real-time plant status updates, boosting <span class='highlight'>user engagement</span> and <span class='highlight'>system responsiveness</span>.",
+      "Optimized and enhanced the existing system by implementing <span class='highlight'>multiple features</span>, resulting in improved <span class='highlight'>customer accessibility</span> and increased <span class='highlight'>operational efficiency</span>."
+    ],
+    duration: "June 2024 - Present",
+    location: "Mumbai, Maharashtra",
+  },
+  {
     company: "Searce Inc",
     role: "Software Engineer",
     logo: "",
     description: [
-      "Developed and improved reusable components within a dynamic team, driving the <span class='highlight'>creation of multiple features.</span>",
-      "Developed a frontend application with <span class='highlight'>multi-role access for viewing farmer data</span> and created a web application to <span class='highlight'>migrate Apigee services.</span>",
+      "Developed and improved reusable components within a dynamic team, driving the <span class='highlight'>creation of multiple features.</span>.",
+      "Developed a frontend application with <span class='highlight'>multi-role access for viewing farmer data</span> and created a web application to <span class='highlight'>migrate Apigee services.</span>.",
       "Engineered a cost-effective web application solution, <span class='highlight'>significantly reducing company billing costs</span> through effective management of unused Google instances.",
-      "Explored navigator, mediadevices, geolocation, crypto web APIs, delved into JWT validation algorithms, and implemented <span class='highlight'>SEO static HTML rendering</span> using Next.js",
+      "Explored navigator, mediadevices, geolocation, crypto web APIs, delved into JWT validation algorithms, and implemented <span class='highlight'>SEO static HTML rendering</span> using Next.js.",
     ],
     duration: "Aug 2022 - Feb 2024",
     location: "Pune, Maharashtra",
@@ -53,16 +67,16 @@ const EXPERIENCES = [
     duration: "Jan 2022 - Jul 2022",
     location: "Pune, Maharashtra",
   },
-  {
-    company: "EduCARE India NGO",
-    role: "Web Developer Intern",
-    logo: "",
-    description: [
-      "Designed and developed Educare India website, <span class='highlight'>connecting volunteers with NGOs</span> for positive community impact.",
-    ],
-    duration: "5th December 2019 - 31st December 2019",
-    location: "Himachal Pradesh",
-  },
+  // {
+  //   company: "EduCARE India NGO",
+  //   role: "Web Developer Intern",
+  //   logo: "",
+  //   description: [
+  //     "Designed and developed Educare India website, <span class='highlight'>connecting volunteers with NGOs</span> for positive community impact.",
+  //   ],
+  //   duration: "5th December 2019 - 31st December 2019",
+  //   location: "Himachal Pradesh",
+  // }
 ];
 
 const PORTFOLIO = [
