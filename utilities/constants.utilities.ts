@@ -47,8 +47,8 @@ const EXPERIENCES = [
     role: "Software Engineer",
     logo: "",
     description: [
-      "Developed and improved reusable components within a dynamic team, driving the <span class='highlight'>creation of multiple features.</span>.",
-      "Developed a frontend application with <span class='highlight'>multi-role access for viewing farmer data</span> and created a web application to <span class='highlight'>migrate Apigee services.</span>.",
+      "Developed and improved reusable components within a dynamic team, driving the <span class='highlight'>creation of multiple features.</span>",
+      "Developed a frontend application with <span class='highlight'>multi-role access for viewing farmer data</span> and created a web application to <span class='highlight'>migrate Apigee services.</span>",
       "Engineered a cost-effective web application solution, <span class='highlight'>significantly reducing company billing costs</span> through effective management of unused Google instances.",
       "Explored navigator, mediadevices, geolocation, crypto web APIs, delved into JWT validation algorithms, and implemented <span class='highlight'>SEO static HTML rendering</span> using Next.js.",
     ],
