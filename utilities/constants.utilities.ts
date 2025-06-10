@@ -39,7 +39,7 @@ const EXPERIENCES = [
       "Developed a <span class='highlight'>web push notification</span> feature for real-time plant status updates, boosting <span class='highlight'>user engagement</span> and <span class='highlight'>system responsiveness</span>.",
       "Optimized and enhanced the existing system by implementing <span class='highlight'>multiple features</span>, resulting in improved <span class='highlight'>customer accessibility</span> and increased <span class='highlight'>operational efficiency</span>."
     ],
-    duration: "June 2024 - Present",
+    duration: "June 2024 - May 2025",
     location: "Mumbai, Maharashtra",
   },
   {
