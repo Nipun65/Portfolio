@@ -33,7 +33,7 @@ const EXPERIENCES = [
     role: "Software Engineer",
     logo: "",
     description: [
-      "Automated <span class='highlight'>report generation</span>, <span class='highlight'>historical data fetching</span>, and <span class='highlight'>plant onboarding</span> process on the <span class='highlight'>AeROC portal</span>, improving system performance with <span class='highlight'>CronJobs</span> and implementing <span class='highlight'>RPC logic</span> for seamless component communication.",
+      "Enhanced the AeROC portal by <span class='highlight'>automating report generation</span> and streamlining <span class='highlight'>plant onboarding processes</span> while improving system performance through <span class='highlight'>CronJobs</span> and <span class='highlight'>Remote Procedure Call</span>.",
       "Designed and implemented a module to retrieve <span class='highlight'>historical data</span> for legacy plants, <span class='highlight'>streamlining data accessibility</span> and <span class='highlight'>analysis</span>.",
       "Integrated <span class='highlight'>real-time</span> and <span class='highlight'>historical data</span> from <span class='highlight'>12 inverter brands</span>, ensuring seamless compatibility within the existing system.",
       "Developed a <span class='highlight'>web push notification</span> feature for real-time plant status updates, boosting <span class='highlight'>user engagement</span> and <span class='highlight'>system responsiveness</span>.",
